@@ -39,7 +39,7 @@ def fake_commit(user,repo,days):
     commitdate = datetime.today()
 
     for i in range(days):
-        rnd = random.randint(1, 20)
+        rnd = random.randint(20, 50)
         commitdate = roundTime(
             datetime.today() - timedelta(days=i), roundTo=60*60)
         for j in range(rnd):

@@ -1,0 +1,6 @@
+argcomplete==3.2.3
+certifi==2024.2.2
+cffi==1.16.0
+cryptography==42.0.5
+docutils==0.20.1
+
